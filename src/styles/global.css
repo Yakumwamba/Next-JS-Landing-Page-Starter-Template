@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@font-face {
+  font-family: "EBGaramond";
+  src: url("/fonts/Heavitas.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

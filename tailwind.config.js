@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -16,7 +17,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          100: '#E6F6FE',
+          100: '#1C1024',
           200: '#C0EAFC',
           300: '#9ADDFB',
           400: '#4FC3F7',

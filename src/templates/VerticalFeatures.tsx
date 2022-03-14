@@ -3,26 +3,26 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
+    title="Play your favorite games with friends"
     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
   >
     <VerticalFeatureRow
-      title="Your title here"
+      title="Call of Duty: Modern Warfare"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
+      image="/assets/images/cod.jpg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Your title here"
+      title="Apex Legends"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
+      image="/assets/images/apex.jpg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
+      title="Fifa 22"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
+      image="/assets/images/fifa.jpg"
       imageAlt="Third feature alt text"
     />
   </Section>

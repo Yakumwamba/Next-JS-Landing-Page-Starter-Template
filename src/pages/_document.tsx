@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 import { AppConfig } from '../utils/AppConfig';
@@ -7,7 +8,15 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+        <link
+            rel="preload"
+            href="/fonts/Heavitas.ttf"
+            as="font"
+            crossOrigin=""
+          />
+      
+        </Head>
         <body>
           <Main />
           <NextScript />
